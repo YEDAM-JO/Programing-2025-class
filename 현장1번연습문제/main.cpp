@@ -2,12 +2,12 @@
 
 int main()
 {
-	printf("=== Basic Constants===\n");
-	printf("Name\t: Yedam\n");
-	printf("Initial\t: Y\n");
-	printf("Age : 24\n");
-	printf("Score\t: 93%.693.500000\n");
-	printf("Count\t: 3000000000\n");
+	printf("=== Basic Constants===\n\n");
+	printf("Name\t: %s\n\n","Yedam");
+	printf("Initial\t: %s\n\n","Y");
+	printf("Age : 24\n\n");
+	printf("Score\t: 93%.693.500000\n\n");
+	printf("Count\t: 3000000000\n\n");
 	return 0;
 
 }
