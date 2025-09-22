@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
 	int age = 24;
 	unsigned int Count = 3000000000;
