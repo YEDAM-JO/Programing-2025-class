@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\Git.Hub\\Programing-2025-class\\Project1 (\uC5F0\uC2B5\uC6A9)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42EC4657-5DBD-42F4-81D4-F3BC300A048E}|Project1 (\uC5F0\uC2B5\uC6A9).vcxproj|C:\\Users\\Administrator\\Documents\\Git.Hub\\Programing-2025-class\\Project1 (\uC5F0\uC2B5\uC6A9)\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{42EC4657-5DBD-42F4-81D4-F3BC300A048E}|Project1 (\uC5F0\uC2B5\uC6A9).vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Git.Hub\\Programing-2025-class\\Project1 (\uC5F0\uC2B5\uC6A9)\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Git.Hub\\Programing-2025-class\\Project1 (\uC5F0\uC2B5\uC6A9)\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-23T09:35:48.188Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

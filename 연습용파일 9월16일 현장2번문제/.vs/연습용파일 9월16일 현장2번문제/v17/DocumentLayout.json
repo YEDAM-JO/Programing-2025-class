@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\Git.Hub\\Programing-2025-class\\\uC5F0\uC2B5\uC6A9\uD30C\uC77C 9\uC6D416\uC77C \uD604\uC7A52\uBC88\uBB38\uC81C\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37F3160F-E0B6-4314-9C47-52BCD75EF906}|\uC5F0\uC2B5\uC6A9\uD30C\uC77C 9\uC6D416\uC77C \uD604\uC7A52\uBC88\uBB38\uC81C.vcxproj|C:\\Users\\Administrator\\Documents\\Git.Hub\\Programing-2025-class\\\uC5F0\uC2B5\uC6A9\uD30C\uC77C 9\uC6D416\uC77C \uD604\uC7A52\uBC88\uBB38\uC81C\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{37F3160F-E0B6-4314-9C47-52BCD75EF906}|\uC5F0\uC2B5\uC6A9\uD30C\uC77C 9\uC6D416\uC77C \uD604\uC7A52\uBC88\uBB38\uC81C.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Git.Hub\\Programing-2025-class\\\uC5F0\uC2B5\uC6A9\uD30C\uC77C 9\uC6D416\uC77C \uD604\uC7A52\uBC88\uBB38\uC81C\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Git.Hub\\Programing-2025-class\\\uC5F0\uC2B5\uC6A9\uD30C\uC77C 9\uC6D416\uC77C \uD604\uC7A52\uBC88\uBB38\uC81C\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-16T14:15:32.371Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
