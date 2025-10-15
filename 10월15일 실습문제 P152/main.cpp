@@ -34,14 +34,14 @@ int main(void)
     {
 
         if (b == 0) {
-            printf("오류: 0으로 나눌 수 없습니다.\n");
+            printf("오류: 0으로 나누기 불가함.\n");
             return 1;
         }
         result = a / b;
     }
     else
     {
-        printf("오류: 지원하지 않는 연산자입니다.\n");
+        printf("오류: 연산자 오류 \n");
         return 1;
     }
 
