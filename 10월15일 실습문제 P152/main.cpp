@@ -3,8 +3,7 @@
 
 int main(void)
 {
-    printf("\n");
-
+   
     int a, b;
     char op;
     int result;
