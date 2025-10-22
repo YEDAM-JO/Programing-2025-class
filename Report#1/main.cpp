@@ -1,7 +1,7 @@
 #include <stdio.h> 
 #define _CRT_SECURE_NO_WARNINGS
 int main(void) {
-    int a, b;                         // 입력받을 두 정수 변수 선언
+    int a, b;                         // 입력받을 두 정수를 변수 선언한다.
 
     printf("두 개의 정수를 입력하세요: ");  // 안내 문구 출력
     scanf_s("%d,%d", &a, &b); // 두 정수를 입력받아 a와 b에 저장
@@ -26,5 +26,5 @@ int main(void) {
 
     printf("프로그램을 종료합니다.\n");   // 프로그램 종료 안내부분
 
-    return 0;                         // 프로그램 정상 종료
+    return 0;                         // 종료
 }
