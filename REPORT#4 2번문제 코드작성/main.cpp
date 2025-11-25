@@ -26,7 +26,7 @@ int main(void) {
 
     while (1) {                // While문은 조건이 참일경우 계속 무한반복하는 특성을 이용함
         printf("난수를 생성할 숫자를 입력하세요 (종료코드 999): ");
-        scanf("%d", &RandomN);    //값을 입력받고 그걸 nRange라는 장소에 저장한다
+        scanf("%d", &RandomN);    //값을 입력받고 그걸 RandomN라는 장소에 저장한다
 
         if (RandomN == END_COND) {               // 999를 입력했는지 확인하고 맞으면 종료
             printf("프로그램을 종료합니다...\n");
