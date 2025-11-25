@@ -12,29 +12,29 @@ void RandSeed() {        // 난수 시드 초기화 (REPORT#4 작성에 도움�
 }
 
 
-unsigned int RandNum(unsigned int nRange) {  // 난수 생성 (0 부터 nRange-1)
+unsigned int RandNum(unsigned int RandomN) {  // 난수 생성 (0 부터 RandomN-1) 
 
-    return rand() % nRange;
+    return rand() % RandomN;
 }
 
 int main(void) {
     RandSeed(); // 난수 시드 초기화(똑같은 난수 생성방지를 위해서)
 
-    int nRange = 0;
+    int RandomN = 0;
     int numbers[100]; // 최대 100개의 난수 저장 
     int count = 0;    // 배열값을 저장위치 COUNT, 0부터 시작
 
     while (1) {                // While문은 조건이 참일경우 계속 무한반복하는 특성을 이용함
         printf("난수를 생성할 숫자를 입력하세요 (종료코드 999): ");
-        scanf("%d", &nRange);    //값을 입력받고 그걸 nRange라는 장소에 저장한다
+        scanf("%d", &RandomN);    //값을 입력받고 그걸 nRange라는 장소에 저장한다
 
-        if (nRange == END_COND) {               // 999를 입력했는지 확인하고 맞으면 종료
+        if (RandomN == END_COND) {               // 999를 입력했는지 확인하고 맞으면 종료
             printf("프로그램을 종료합니다...\n");
             break;
         }
 
         if (count < 100) { // 범위 체크
-            numbers[count] = RandNum(nRange); // 난수 생성 후 couunt라는 배열에 저장
+            numbers[count] = RandNum(RandomN); // 난수 생성 후 couunt라는 배열에 저장
             printf("생성된 난수: %d\n", numbers[count]);
             count++;     // 반복이 끝날 때 count가 하나 증가함
         }
