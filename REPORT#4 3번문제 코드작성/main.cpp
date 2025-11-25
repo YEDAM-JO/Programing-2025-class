@@ -4,7 +4,7 @@
 double vecA[3];   // 3차원 벡터라서 크기를 3으로 설정 (면,행,열)
 double vecB[3];
 
-double CalcDot(double* a, double* b) // 두 벡터의 내적을 계산하는 함수   '내적 (dot product)'
+double dotp(double* a, double* b) // 두 벡터의 내적을 계산하는 함수   '내적 (dot product)'
 
 {
     double sum = 0.0;  // 내적 결과를 저장할 바구니
@@ -19,7 +19,7 @@ double CalcDot(double* a, double* b) // 두 벡터의 내적을 계산하는 함
 }
 
 
-void CalcCross(double* a, double* b, double* res) // 두 벡터의 외적을 계산하는 함수, 결과는 res 배열에 넣어줌   '외적 (cross product)'
+void Crossp(double* a, double* b, double* res) // 두 벡터의 외적을 계산하는 함수, 결과는 res 배열에 넣어줌   '외적 (cross product)'
                                                   // (여기서 나오는*은 곱하기 기호가 아닌 데이터를 가리키는 주소)
 {
     
@@ -51,10 +51,10 @@ int main(void)
         scanf_s("%lf", &vecB[i]);
 
     
-    dotRes = CalcDot(vecA, vecB);         // 내적 계산 함수 호출
+    dotRes = dotp(vecA, vecB);         // 내적 계산 함수 호출
 
     
-    CalcCross(vecA, vecB, crossRes);         // 외적 계산 함수 호출
+    Crossp(vecA, vecB, crossRes);         // 외적 계산 함수 호출
 
    
     printf("\n내적(Dot Product) = %.3lf\n", dotRes);

@@ -22,18 +22,18 @@ int main(void) {
 
     int nRange = 0;
     int numbers[100]; // 최대 100개의 난수 저장 
-    int count = 0;    // 배열의 값을 저장할 위치는 COUNT이고 0부터 시작
+    int count = 0;    // 배열값을 저장위치 COUNT, 0부터 시작
 
     while (1) {                // While문은 조건이 참일경우 계속 무한반복하는 특성을 이용함
         printf("난수를 생성할 숫자를 입력하세요 (종료코드 999): ");
-        scanf("%d", &nRange);    //입력하는 사람으로부터 값을 입력받고 그 값은 nRange라는 장소에 저장한다
+        scanf("%d", &nRange);    //값을 입력받고 그걸 nRange라는 장소에 저장한다
 
-        if (nRange == END_COND) {               //입력하는 사람이 999를 입력했는지 확인한다는 의미
+        if (nRange == END_COND) {               // 999를 입력했는지 확인하고 맞으면 종료
             printf("프로그램을 종료합니다...\n");
             break;
         }
 
-        if (count < 100) { // 배열의 범위 체크
+        if (count < 100) { // 범위 체크
             numbers[count] = RandNum(nRange); // 난수 생성 후 couunt라는 배열에 저장
             printf("생성된 난수: %d\n", numbers[count]);
             count++;     // 반복이 끝날 때 count가 하나 증가함
@@ -53,7 +53,7 @@ int main(void) {
 
     int sum = 0;
     for (int i = 0; i < count; i++) {
-        sum += numbers[i];  // 입력받은 numbers 배열범위의 전체 난수를 합산
+        sum += numbers[i];  // 입력받은 numbers 배열범위의 전체 난수 더하기
     }
     printf("총합: %d\n", sum);
 
@@ -73,7 +73,7 @@ int main(void) {
 
     
     int stddev = 0; // 표준편차의 값을 저장할 위치는 stddev
-    while ((stddev + 1) * (stddev + 1) <= variance) { // 분산보다 작거나 같은 최대 제곱정수 값 찾기
+    while ((stddev + 1) * (stddev + 1) <= variance) { // 분산보다 작거나 같은 최대 제곱값 찾기
         stddev++;  //반복이 끝날 때 마다 하나씩 stddev 증가(분산보다 커지는 순간 반복이 멈추는데 즉,그 값이 표준편차)
     }
     printf("표준편차: %d\n", stddev);
