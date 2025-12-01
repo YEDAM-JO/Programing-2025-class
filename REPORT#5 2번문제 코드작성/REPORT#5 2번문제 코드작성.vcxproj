@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1c83e291-1ccb-4576-b955-e6d501e80d6f}</ProjectGuid>
+    <ProjectGuid>{7083b7af-e66b-47e1-9ae0-89da3118ef6a}</ProjectGuid>
     <RootNamespace>REPORT52번문제코드작성</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
